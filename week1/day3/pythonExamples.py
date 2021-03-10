@@ -11,6 +11,8 @@ sumOfNumbers = 1 + 1
 # Name, assignment operator (=), value that I am assigning
 variablename = True
 # List, sequence of values followed by [value1, value2, etc]
+somethingToCallIt = ["students", 23, True]
+somethingToCallIt = {"helloPythonWorld": 23, "we are students": 24.5}
 # [1, 2, 3]
 # ["strings", "string2", "blahblahblah"]
 # [False, True, False]
@@ -23,3 +25,6 @@ variablename = True
 # {"FavoriteColor": "Red"}
 print("HelloWorld")
 print("My name is Joey and I am living the dream")
+print(classSize)
+print(somethingToCallIt)
+print(somethingToCallIt)
