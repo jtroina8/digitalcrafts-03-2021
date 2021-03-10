@@ -28,3 +28,4 @@ print("My name is Joey and I am living the dream")
 print(classSize)
 print(somethingToCallIt)
 print(somethingToCallIt)
+variableNameThree = 3
