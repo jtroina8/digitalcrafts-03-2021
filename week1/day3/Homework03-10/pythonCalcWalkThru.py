@@ -93,3 +93,6 @@ else:
     print('NOT A VALID OPERATOR! Please run the program again!')
 # Answers my question from before from line 12
 # Credit tutorial source: https://www.digitalocean.com/community/tutorials/how-to-make-a-calculator-program-in-python-3
+
+# Getting the calculator to perform more than once:
+# Define our function:
