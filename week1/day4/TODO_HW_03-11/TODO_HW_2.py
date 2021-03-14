@@ -1,5 +1,6 @@
 ToDoList = []
 
+# make this main menu a function, so that you cn call it again after entering a priority
 option = input('''
     Welcome to your TO-DO List!
     ***************************
