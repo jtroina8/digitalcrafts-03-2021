@@ -1,0 +1,64 @@
+.mainbar {
+  height: 50px;
+  background-color: rgb(22, 19, 165);
+}
+.mainbar a {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  float: left;
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+}
+.mainbar b {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  float: right;
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.form {
+  text-align: center;
+}
+
+#form-search {
+  width: 450px;
+  line-height: 10px;
+  padding: 2px 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  height: 30px;
+  background-color: rgb(98, 145, 189);
+}
+.navbar a {
+  display: block;
+  text-align: center;
+  float: left;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.profile-pic {
+  position: absolute;
+}
+
+.info {
+  position: relative;
+  left: 265px;
+}
+.big-box {
+  position: relative;
+  left: 800px;
+}
+.events {
+  position: relative;
+  left: 800px;
+}

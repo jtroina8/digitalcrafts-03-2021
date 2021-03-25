@@ -14,4 +14,4 @@
 # print statement needs to be a method
 
 class Building:
-    def __init__(self, heigh, capacity, sqft)
+    def __init__(self, heigh, capacity, sqft):
