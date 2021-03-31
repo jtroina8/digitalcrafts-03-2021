@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="formContainer">
+        <table cellpadding='2px' cellspacing='5px'>
+            <h2>Tip Calculator</h2>
+            <th></th>
+            <tr>
+                <td>Bill Amount (in Dollars): </td>
+                <td><span>$ <input type='text' id='bill' placeholder='ie. 50'></span></td>
+            </tr>
+            <tr>
+                <td>Tip Amount (in %): </td>
+                <td>
+                    <span>% <input type='text' id='tip' placeholder='ie. 15'></span>
+                </td>
+            </tr>
+            <td></td>
+            <tr>
+                <td></span></h3>
+                </td>
+            </tr>
+        </table>
+        <button type='button' onclick="tipCalc()">Calculate Total</button>
+        <h3>The total amount with tip is: $ <span class="total"></span>
+        </div>
+    </body>
+    <script>
+       // add your tip calc function here
+        function tipCalc() {
+            // inputs
+            const billAmount = Number(document.querySelector('#bill').value)
+            const tipGiven = Number(document.querySelector('#tip').value)
+            // math
+            const tipAmount = ((tipGiven /100) * billAmount)
+            const tipRounded = tipAmount.toFixed(2)
+            const totalFormula = billAmount + tipRounded
+            const totalBill = totalFormula.toFixed(2)
+            // print
+            const printedTotal = document.querySelector(".total")
+            printedTotal.innertext = mealTotal.toFixed(2);
+            // history
+            const writeTip = document.createElement('li');
+            addTip.append(tipRounded);
+        }
+    </script>
+</html>
