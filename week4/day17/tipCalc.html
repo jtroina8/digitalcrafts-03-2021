@@ -34,6 +34,9 @@
         </table>
         <button type='button' onclick="tipCalc()">Calculate Total</button>
         <h3>The total amount with tip is: $ <span class="total"></span>
+        <ul id='addTip'>
+
+        </ul>
         </div>
     </body>
     <script>
@@ -43,16 +46,18 @@
             const billAmount = Number(document.querySelector('#bill').value)
             const tipGiven = Number(document.querySelector('#tip').value)
             // math
-            const tipAmount = ((tipGiven /100) * billAmount)
-            const tipRounded = tipAmount.toFixed(2)
-            const totalFormula = billAmount + tipRounded
-            const totalBill = totalFormula.toFixed(2)
+            const tipAmount = ((tipGiven /100) * billAmount).toFixed(2)
+            const totalFormula = billAmount + Number(tipAmount)
             // print
             const printedTotal = document.querySelector(".total")
-            printedTotal.innertext = mealTotal.toFixed(2);
+            printedTotal.innerText = totalFormula;
             // history
-            const writeTip = document.createElement('li');
-            addTip.append(tipRounded);
+            const addTip = document.querySelector('#addTip')          
+            const writeTip = document.createElement('li')
+            writeTip.innerText = tipAmount
+            addTip.append(writeTip)
+            console.log(tipAmount)
+            
         }
     </script>
 </html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip Calculator</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tipCalcStyle.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="formContainer">
+    <form>
+    <h2 class="form-title">Tip Calculator</h2>
+    <div class="form">
+      <table cellpadding='2px' cellspacing='5px'>
+
+        <th></th>
+        <tr>
+          <td>Bill Amount ($): </td>
+          <td><span>$ <input type='text' id='bill' placeholder='ie. 50'></span></td>
+        </tr>
+        <tr>
+          <td>Tip Amount (%): </td>
+          <td>
+            <span>% <input type='text' id='tip' placeholder='ie. 15'></span>
+          </td>
+        </tr>
+        <td></td>
+        <tr>
+          <td></span></h3>
+          </td>
+        </tr>
+      </table>
+      <button class="bn5" type="submit">Calculate</button>
+      <h3>The total amount with tip is: $ <span class="total"></span>
+        <ul id='addTip'>
+
+        </ul>
+    </form>
+    </div>
+</body>
+<script src=tipCalc.js></script>
+
+</html>
