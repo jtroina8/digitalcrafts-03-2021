@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Making my way downtown.</h1>
-    <p>What's the weather like?</p>
+    <h1>Willy's Welcoming Weather Website</h1>
+    <p>Write down your Zip Code, and Willy will tell you the weather!</p>
     <form>
-        <label>Zip Code</label>
-        <input type="number">
-        <input type="submit">
+        <label>Your Location</label>
+        <input type="text" id="zipcode" placeholder="Zipcode (ex: 10010)">
+        <input class="btn1" onclick="return getWeatherData()" type="button" value="Tell Me, Willy!"></input>
+        <ul>
+            <p id='name'></p>
+            <p id='temperature'></p>
+            <p id='description'></p>
+            <p id='min'></p>
+            <p id='max'></p>
+
+        </ul>
     </form>
 
 <script src="weather.js"></script>
 </body>
 </html>
+
