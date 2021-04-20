@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  background: linear-gradient(#98fb98, #4b0082);
+}
+
+.everything {
+  display: flex;
+  width: 100%;
+}
+
+.centerHome {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.storeStuff {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.contactStuff {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 25%;
+}
