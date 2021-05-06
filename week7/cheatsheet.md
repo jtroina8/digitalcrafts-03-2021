@@ -2,13 +2,13 @@
 
 NODE SERVER:
 
-- 1. Make your files
+- 1. Make your files (client -> html.js, index.html) (server -> db.js, db.sql, index.js)
 - 2. NPM init
-- 3. NPM INSTALL EXPRESS CORS PG whatever you need
+- 3. NPM install express cors pg / whatever you need
 - 4. .gitignore your node modules
 - 5. GET YOUR TOOLS, aka const require stuff(express,pg,etc)
 - 6. Add node modules to .gitignore
-- 7. creat and instance of express
+- 7. create an instance of express
      `e.g const app = express()`
 - 8. Use middleware, like `app.use, app.use(express.json())`
 - 9. Define your port number, aka const PORT = XXXX
