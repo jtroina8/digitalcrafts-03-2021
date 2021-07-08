@@ -1,0 +1,3 @@
+export const CHANGE_HEIGHT = "CHANGE_HEIGHT";
+export const CHANGE_WEIGHT = "CHANGE_WEIGHT";
+export const CHANGE_NAME = "CHANGE_NAME";

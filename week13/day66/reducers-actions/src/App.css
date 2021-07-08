@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+/* nav bar */
+nav {
+  display: grid;
+  grid-row: 1;
+}
+
+nav img {
+  height: 100px;
+  width: 100px;
+}
